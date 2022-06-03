@@ -11,3 +11,12 @@ Hunter
 Hunter
 
 '''
+
+num = int(input("Enter a number:"))
+numbertosquare = 1
+numsquares = 0
+while numbertosquare <= num:
+    numbertosquare = numsquares + 1 
+    numsquares += 1
+    
+print("Times to print:", int(num)*"Hunter ")

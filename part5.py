@@ -18,3 +18,14 @@ Enter a number or enter 0 to stop: 0
 Number of evens: 3
 
 '''
+
+count = 0
+
+number = float(input("Enter a number: "))
+
+while number != 0:
+    number = float(input("Enter a number: "))
+    if number % 2 == 0:
+        count = count + 1
+if number == 0:
+    print("Number of evens", count-1)

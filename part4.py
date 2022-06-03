@@ -12,3 +12,12 @@ Enter a number or enter 0 to stop: 0
 Product: 60
 
 '''
+total = 0  
+
+number = float(input("Enter a number: "))  
+
+while number != 0:
+  total = number + 1 
+  number = float(input("Enter a number: "))
+if number == 0:
+  print("Product", total)
